@@ -1,0 +1,53 @@
+
+/**GENERAL**/ 
+
+*{
+    font-family: "Outfit";
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/**HEADER**/
+
+header{
+    margin-bottom: 30px;
+    padding: 0 5px 2px 5px;
+}
+
+header nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+/**MAIN**/
+
+main{
+    padding: 5px;
+}
+
+.block{
+    margin-top: 20px;
+}
+
+.block ul li{
+    list-style-type: none;
+}
+
+.block ul{
+    padding: 0;
+}
+
+.scol{
+    margin-bottom: 20px;
+}
