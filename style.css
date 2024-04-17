@@ -1,0 +1,91 @@
+
+/**GENERAL**/ 
+
+*{
+    font-family: "Outfit";
+    font-weight: 500;
+    font-size: 30px;
+    margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/**HEADER**/
+
+header{
+    margin-bottom: 30px;
+    padding: 0 5px 2px 5px;
+}
+
+header nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+nav a:hover{
+    text-shadow: 1px 1px 30px rgb(255, 0, 106);
+}
+
+/**MAIN**/
+
+main{
+    padding: 5px;
+}
+
+.block{
+    margin-top: 20px;
+}
+
+.block ul li{
+    list-style-type: none;
+}
+
+.block ul{
+    padding: 0;
+}
+
+.scol{
+    margin-bottom: 20px;
+}
+
+main a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+main a:hover{
+    text-shadow: 1px 1px 30px rgb(255, 0, 106);
+}
+
+/**ABOUT**/
+
+.bio, .parcours{
+    width: 45%;
+}
+
+.bio p{
+    margin-bottom: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+/**HOME**/
+
+.home p, .home a{
+    font-size: 55px;
+}
+
+.home p{
+    margin-bottom: 20px;
+}
